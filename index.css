@@ -1,36 +1,40 @@
-/* Navbar container */
+body {font-family: Arial, Helvetica, sans-serif;}
+
 .navbar {
-    background-color: #ffffff;
-    overflow: hidden;
+  width: 100%;
+  background-color: #ffffff;
+  overflow: auto;
 }
 
-/* Navbar logo */
-#navbar-logo {
-    float: left;
-    width: 50px;
-    height : 50px;
-}
-
-
-/* Navbar links */
-.navbar-links {
-    float: right;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.navbar-links li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.About-us li{
+.navbar a {
+    position: relative;
+    top: -8px; /* Adjust the top position */
+    left: 448px; /* Adjust the left position */
+    padding: 5px;
+    color: #aeaeae;
     text-decoration: none;
-    color: #747474;
-}
+    font-size: 15px;
+    margin: 4px;
+  }
 
-/* Style for the active link */
-.navbar-links a.active {
-    font-weight: bold;
+.about_us {
+  background-color: #ffffff;
+  color: #00b39b !important;
+}
+/* Navbar logo */
+.navbar_logo {
+	width: 268px; /* Rendered width */
+    height: 33px; /* Rendered height */
+    object-fit: fill; /* Ensures the image covers the specified dimensions */
+    margin-top: 7px;
+    margin-left: 421px; 
+}
+.image{
+    display: inline-block;
+}
+.image img {
+    vertical-align: middle;
+    margin-left: 887.8px; 
+    margin-top: 51px;
+
 }
