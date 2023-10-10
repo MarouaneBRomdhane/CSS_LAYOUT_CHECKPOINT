@@ -1,19 +1,32 @@
 /*body {font-family: Arial, Helvetica, sans-serif;} */
+.navbar_head div {
+  border: 1px ;
+  padding: 10px;
+  box-shadow: 0px 3px 8px #808080;
+  margin: 10px;
+}
 .navbar {
-  width: 100%;
   background-color: #ffffff;
-  overflow: auto;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 70px;
+  max-width: 100%;
+  max-height: 100%;
+  top: 0;
+
 }
 
 .navbar a {
     position: relative;
-    top: -8px; /* Adjust the top position */
-    left: 448px; /* Adjust the left position */
+    top: -7.1px; /* Adjust the top position */
+    left: 448.7px; /* Adjust the left position */
     padding: 5px;
     color: #aeaeae;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14.7px;
     margin: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
 .about_us {
@@ -25,7 +38,7 @@
 	width: 268px; /* Rendered width */
     height: 33px; /* Rendered height */
     object-fit: fill; /* Ensures the image covers the specified dimensions */
-    margin-top: 7px;
+    margin-top: 14px;
     margin-left: 421px; 
 }
 .image{
@@ -33,8 +46,8 @@
 }
 .image img {
     vertical-align: middle;
-    margin-left: 887.8px; 
-    margin-top: 51px;
+    margin-left: 888.9px; 
+    margin-top: 95px;
 
 }
 .text_title p {
@@ -42,10 +55,26 @@
     top: 1px; /* Adjust the top position */
     left: 541px; /* Adjust the left position */
     color: #00b39b !important;
-    font-size: 35px;
-    font-family: Work Sans,Arial,sans-serif;
+    font-size: 34px;
+    font-family: "Work Sans",Arial,sans-serif;
     letter-spacing: -.3px;
+    text-decoration: none solid rgb(0, 179, 155);
+    text-align: justify;
   }
+  .paragraph1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.paragraph2 {
+  position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.content_1{
+    left: 497.5px;
+    top: 112px;
+}
 @media screen and (max-width: 500px) {
   .navbar a {
     float: none;
